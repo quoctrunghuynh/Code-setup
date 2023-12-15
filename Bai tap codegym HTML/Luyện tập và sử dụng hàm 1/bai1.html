@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="alertMessage()">Bài 1</button>
+    <button onclick="document.getElementById('demo').innerHTML = bai2(0)">Bài 2</button>
+    <p id="demo"></p>
+    <button type="button" onclick="bai3(4,3)">Bài 3</button>
+    <button onclick="bai5()">Bài 5</button>
+    <p id="demo"></p>
+    <script>
+        function alertMessage(){
+            alert("Xin chào")
+        }
+        function bai2(number){
+            return ++number;
+        }
+        function bai3(a,b){
+            if(a>b){
+                alert("a lớn hơn b")
+            }else{
+                document.getElementById("demo").innerHTML=a+b;
+            }
+        }
+        // function addNumbers() { đây là bài 4
+        // firstNum = 4;
+        // secondNum = 8;
+        // result = firstNum + secondNum;
+        // return result;
+        // }
+        // result = 0;
+        // alert("result trước khi gọi: "+result);
+        // result = addNumbers(); 
+        // alert("result sau khi gọi: "+result);
+            
+        
+        //đây là bài 5
+        
+        function bai5(input){
+            
+                
+            var arr1=["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"]
+            var arr2=["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"]   
+
+                let search=arr1.indexOf(input);
+                if(search!=-1){
+                    return arr2[search]
+                }
+                else{
+                    return 'Không tìm thấy ngôi sao '+input
+                }
+            }
+            // let input=prompt("Nhập vào tên của ngôi sao cần tìm");
+            // let ketqua=bai5(input);
+            // document.getElementById("demo").innerHTML=ketqua
+            
+    </script>
+</body>
+</html>

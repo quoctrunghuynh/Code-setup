@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class mobile{
+            constructor(battery,composeMemory,inboxMemory,sentMemory,status){
+                this.battery=battery; //pin
+                this.composeMemory=composeMemory;// bộ nhớ soạn tin nhắn
+                this.inboxMemory=inboxMemory;//bộ nhớ tin nhắn
+                this.sentMemory=sentMemory;// bộ nhớ tin nhắn đã gửi
+                this.status=status;// on off
+
+                this.isOn=function(){ //lấy trạng thái bật tắt của đt
+                    return this.status;
+                }
+
+                this.turnOn=function(){ //bật đt lên
+                    if(!this.isOn()){
+                        if(this.battery>0 && this.battery <= 100){
+                            this.cost();
+                            this.status=true;
+                        }
+                    }
+                }
+                this.turnOff=function(){ //Tắt đt đi
+                    if(this.isOn()){
+                        if(this.battery>0 && this.battery <= 100){
+                            this.cost();
+                            this.status=false;
+                        }
+                    }
+                }
+                this.charger = function(){ //Sạc đt
+                   this.battery=100;
+                }
+                
+                this.compoMe=function(Message){ //chức năng lưu soạn thảo tin nhắn
+                    if(this.isOn()){
+                        this.cost();
+                        this.composeMemory=Message;
+                    }
+                }
+                this.sendMe=function(toMobile){ //gửi tin nhắn và lưu tin nhắn tạm ở inboxMemory
+                    if(this.isOn()){
+                        this.cost();
+                        this.sentMemory= this.composeMemory;
+                        toMobile.inboxMemory=this.sentMemory
+                    }
+                }
+                this.receiMess=function(){////nhận tin nhắn và thông báo có tin nhắn
+                    if(this.isOn()){
+                        this.cost();
+                       return "Bạn có tin nhắn";
+                    }
+                }
+                this.readMe = function(){ //đọc tin nhắn trong inboxMem
+                if (this.isOn()) {
+                    this.cost();
+                    return this.inboxMemory;
+            }
+                this.cost=function(){ //Mỗi lần sử dụng chức năng, pin sẽ giảm đi một đơn vị.
+                this.battery--;
+                }
+        }
+    }
+}
+function main(){
+    let nokia =new mobile(50,"","","",true);
+    let iphone =new mobile(70,"","","",true);
+
+    let text=prompt("Enter your message: ");
+    iphone.compoMe(text);
+    iphone.sendMe(nokia);
+
+    let Noti= nokia.receiMess();
+    if(noti != ""){
+        alert("Message is: "+nokia.readMe())
+    }
+}
+main()
+    </script>
+</body>
+</html>

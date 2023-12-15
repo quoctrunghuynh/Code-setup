@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Bài cũ"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Case Study"
+	}
+}

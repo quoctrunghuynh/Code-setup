@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check mat... à lộn số nguyên tố</title>
+</head>
+<body>
+    <script>
+        let soLuong = parseInt(prompt('Hãy nhập số lượng số nguyên tố mà bạn muốn tìm'));
+        let boDem = 0;
+        let soTamThoi = 2;
+        while (boDem < soLuong){
+            if (checkSoNguyenTo(soTamThoi))
+            {
+                document.write(soTamThoi +"<br>");
+                boDem++;
+            }
+            soTamThoi++;
+        }
+        function checkSoNguyenTo(soTamThoi)
+        {
+            let flag = true;
+            if(soTamThoi == 2)
+            {
+                flag == true;
+            }
+            else 
+            {
+                for(let filter = 2; filter<(soTamThoi/2+1); filter++)
+                {
+                    if (soTamThoi % filter ==0)
+                    {
+                        flag = false;
+                        break;
+                    }
+                }
+            }
+            return flag;
+        }
+    </script>
+</body>
+</html>

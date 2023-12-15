@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function apple (type){
+            this.type=type;
+            this.color="red";
+            this.getInf = getAppleinf;
+        }
+        function getAppleinf(){
+            return this.color+" "+this.type+" apple";
+        }
+        let apple = new apple('macintosh');
+        apple.color= "reddish"
+        alert(apple.getAppleinf())
+    </script>
+</body>
+</html>

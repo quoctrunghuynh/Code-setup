@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class elecLamp {
+        constructor(statusL) {
+          this.statusL = statusL;
+        }
+        isOn = function () {
+          return this.statusL;
+        };
+        turnOn = function () {
+          this.statusL = true;
+        };
+        turnOff = function () {
+          this.statusL = false;
+        };
+      }
+
+      class button {
+        constructor(statusB, lamp) {
+          this.statusB = statusB;
+          this.lamp = lamp;
+        }
+        connectToLamp = function (lamp) {
+          this.lamp = lamp;
+        };
+        switchOn = function () {
+          if (!this.lamp.isOn()) {
+            this.lamp.turnOn();
+            console.log("Dang mo");
+          } else {
+            console.log("Vo tac dung");
+          }
+        };
+        switchOff = function () {
+          if (this.lamp.isOn()) {
+            this.lamp.turnOff();
+            console.log("Dang tat");
+          } else {
+            console.log("Vo tac dung");
+          }
+        };
+      }
+      var denphong = new elecLamp(true);
+      var denngu = new elecLamp(false);
+      var switchphong = new button(true, "");
+      var switchngu = new button(false,"");
+
+      switchngu.connectToLamp(denphong);
+      switchngu.switchOn();
+      switchngu.switchOn();
+
+    </script>
+  </body>
+</html>

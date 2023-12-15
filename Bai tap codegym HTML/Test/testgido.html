@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function student(id, name, addr){
+            this.id=id;
+            this.name=name;
+            this.addr=addr;
+            this.getInfo=function(){
+                return "id="+this.id+" name="+this.name+" addr="+this.addr;
+            }
+        }
+        var member = new student(1,"Huỳnh Quốc Trung","Nhà trắng");
+        console.log(member.getInfo())
+    </script>
+</body>
+</html>

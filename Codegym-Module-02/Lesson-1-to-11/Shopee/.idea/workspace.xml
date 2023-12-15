@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8630b95-4f19-483c-aa54-c8c977a2efa3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopee.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shopee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/CartLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/impl/ProductServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2O5Ujq2qaGIryCN93ZPpezEOBC4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/Module 2/From1to11/Shopee",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Shopee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shopee" />
+      <module name="Shopee" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Shopee" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8630b95-4f19-483c-aa54-c8c977a2efa3" name="Changes" comment="" />
+      <created>1680850074894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680850074894</updated>
+      <workItem from="1680850076387" duration="10456000" />
+      <workItem from="1680881636301" duration="10953000" />
+      <workItem from="1680920423869" duration="8735000" />
+      <workItem from="1680948627042" duration="14407000" />
+      <workItem from="1681008491042" duration="5319000" />
+      <workItem from="1681079191940" duration="2445000" />
+      <workItem from="1681090040160" duration="1505000" />
+      <workItem from="1681385915188" duration="1198000" />
+      <workItem from="1681387376216" duration="4127000" />
+      <workItem from="1681433016588" duration="623000" />
+      <workItem from="1681438450053" duration="28000" />
+      <workItem from="1681440764295" duration="1296000" />
+      <workItem from="1682645001165" duration="123000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

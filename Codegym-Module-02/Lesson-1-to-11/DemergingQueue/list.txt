@@ -1,0 +1,14 @@
+Phat/true/02-01-1998
+Huy/true/19-01-1993
+Trung/true/01-05-1998
+Chung/true/21-09-1994
+Tam/true/15-09-2000
+Tho/true/05-01-2002
+An/true/30-02-2004
+Ngoc/false/26-08-1997
+Nhu/false/20-12-1996
+Nghia/false/19-7-1999
+Thanh/true/03-11-1994
+Long/true/19-01-2002
+PhuocAu/true/26-01-2000
+Phai/true/19-01-2000

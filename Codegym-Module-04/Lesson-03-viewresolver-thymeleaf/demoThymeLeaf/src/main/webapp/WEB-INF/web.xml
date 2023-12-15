@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+</web-app>
+
+<!--<beans:bean class="org.thymeleaf.spring4.view.ThymeleafViewResolver"> <beans:property name="templateEngine" ref="templateEngine" />-->
+<!--<beans:property name="order" value="1"/>-->
+<!--<beans:property name="viewNames" value="*.html,*.xhtml" />-->
+<!--</beans:bean> <beans:bean id="templateResolver" class=-->
+<!--        "org.thymeleaf.templateresolver.ServletContextTemplateResolver"> <beans:property name="prefix" value="/WEB-INF/templates/" />-->
+<!--<beans:property name="suffix" value=".html"/>-->
+<!--<beans:property name="templateMode" value="HTML5"/>-->
+<!--</beans:bean> <beans:bean id="templateEngine"-->
+<!--                          class="org.thymeleaf.spring4.SpringTemplateE -->
+<!--ngine"> <beans:property name="templateResolver" ref="templateResolver" />-->
+<!--</beans:bean>-->

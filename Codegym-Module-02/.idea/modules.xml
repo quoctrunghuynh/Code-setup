@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lesson12andAbove/Leson12/AIOOBException/AIOOBException.iml" filepath="$PROJECT_DIR$/Lesson12andAbove/Leson12/AIOOBException/AIOOBException.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/AbstractAndInterface/AbstractAndInterface.iml" filepath="$PROJECT_DIR$/From1to11/AbstractAndInterface/AbstractAndInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson12andAbove/Leson12/ArrangeComparAbletor/ArrangeComparAbletor.iml" filepath="$PROJECT_DIR$/Lesson12andAbove/Leson12/ArrangeComparAbletor/ArrangeComparAbletor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/ArrayListBeta/ArrayListBeta.iml" filepath="$PROJECT_DIR$/From1to11/ArrayListBeta/ArrayListBeta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/ArrayListMethod/ArrayListMethod.iml" filepath="$PROJECT_DIR$/From1to11/ArrayListMethod/ArrayListMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/C02/C02.iml" filepath="$PROJECT_DIR$/From1to11/C02/C02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/CircleCylinder/CircleCylinder.iml" filepath="$PROJECT_DIR$/From1to11/CircleCylinder/CircleCylinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/ClearConsole/ClearConsole.iml" filepath="$PROJECT_DIR$/From1to11/ClearConsole/ClearConsole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/Comparable/Comparable.iml" filepath="$PROJECT_DIR$/From1to11/Comparable/Comparable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson12andAbove/Lesson16/CopyFileText/CopyFileText.iml" filepath="$PROJECT_DIR$/Lesson12andAbove/Lesson16/CopyFileText/CopyFileText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/DemergingQueue/DemergingQueue.iml" filepath="$PROJECT_DIR$/From1to11/DemergingQueue/DemergingQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/FromDecimalToBinary/FromDecimalToBinary.iml" filepath="$PROJECT_DIR$/From1to11/FromDecimalToBinary/FromDecimalToBinary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/Lesson 5/Lesson 5.iml" filepath="$PROJECT_DIR$/From1to11/Lesson 5/Lesson 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/From1to11/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/ListingStuff/ListingStuff.iml" filepath="$PROJECT_DIR$/From1to11/ListingStuff/ListingStuff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson12andAbove/Lesson16/MaxToWrite/MaxToWrite.iml" filepath="$PROJECT_DIR$/Lesson12andAbove/Lesson16/MaxToWrite/MaxToWrite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Module 2.iml" filepath="$PROJECT_DIR$/.idea/Module 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/P2D3D/P2D3D.iml" filepath="$PROJECT_DIR$/From1to11/P2D3D/P2D3D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/Palindrome/Palindrome.iml" filepath="$PROJECT_DIR$/From1to11/Palindrome/Palindrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/PointAndMoveAblePoint/PointAndMoveAblePoint.iml" filepath="$PROJECT_DIR$/From1to11/PointAndMoveAblePoint/PointAndMoveAblePoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/PracticeQueue/PracticeQueue.iml" filepath="$PROJECT_DIR$/From1to11/PracticeQueue/PracticeQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson12andAbove/Leson12/PracticeShoppe/PracticeShoppe.iml" filepath="$PROJECT_DIR$/Lesson12andAbove/Leson12/PracticeShoppe/PracticeShoppe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/PracticeTreeMap/PracticeTreeMap.iml" filepath="$PROJECT_DIR$/From1to11/PracticeTreeMap/PracticeTreeMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson12andAbove/Lesson16/PraticeFileText/PraticeFileText.iml" filepath="$PROJECT_DIR$/Lesson12andAbove/Lesson16/PraticeFileText/PraticeFileText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/PraticeStack/PraticeStack.iml" filepath="$PROJECT_DIR$/From1to11/PraticeStack/PraticeStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/QuadraticEquation/QuadraticEquation.iml" filepath="$PROJECT_DIR$/From1to11/QuadraticEquation/QuadraticEquation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/Queue/Queue.iml" filepath="$PROJECT_DIR$/From1to11/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/QueueLienKetVong/QueueLienKetVong.iml" filepath="$PROJECT_DIR$/From1to11/QueueLienKetVong/QueueLienKetVong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/ShapeOfYou/ShapeOfYou.iml" filepath="$PROJECT_DIR$/From1to11/ShapeOfYou/ShapeOfYou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/Shopee/Shopee.iml" filepath="$PROJECT_DIR$/From1to11/Shopee/Shopee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/Stacking/Stacking.iml" filepath="$PROJECT_DIR$/From1to11/Stacking/Stacking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/StopWatch/StopWatch.iml" filepath="$PROJECT_DIR$/From1to11/StopWatch/StopWatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/TennisGame/TennisGame.iml" filepath="$PROJECT_DIR$/From1to11/TennisGame/TennisGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/TestEverything/TestEverything.iml" filepath="$PROJECT_DIR$/From1to11/TestEverything/TestEverything.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson12andAbove/Leson12/TestMap/TestMap.iml" filepath="$PROJECT_DIR$/Lesson12andAbove/Leson12/TestMap/TestMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson12andAbove/Testing/Testing.iml" filepath="$PROJECT_DIR$/Lesson12andAbove/Testing/Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/interpolationSearch/interpolationSearch.iml" filepath="$PROJECT_DIR$/From1to11/interpolationSearch/interpolationSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/oopDir/oopDir.iml" filepath="$PROJECT_DIR$/From1to11/oopDir/oopDir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/test/test.iml" filepath="$PROJECT_DIR$/From1to11/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/thuchanhtime/thuchanhtime.iml" filepath="$PROJECT_DIR$/From1to11/thuchanhtime/thuchanhtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/From1to11/untitled/untitled.iml" filepath="$PROJECT_DIR$/From1to11/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>

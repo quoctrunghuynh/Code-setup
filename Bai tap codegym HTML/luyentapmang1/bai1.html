@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function bai1(){
+            var b=[];
+            var count=0;
+            for(let i=0; i<10;i++){
+                b[i]=Math.floor(Math.random()*100);
+                    if(b[i]>10){
+                        count+=1
+                    }
+            }
+            document.write(b)
+            document.write("<br>")
+            document.write("Có: "+count+" số lớn hơn 10")
+        }
+        //bai1();
+
+        function bai2(){
+            var b=[];
+            var max=0;
+            for(let i=0; i<10;i++){
+                b[i]=Math.floor(Math.random()*100);
+                    if(b[i]>max){
+                        max= b[i];
+                    }
+            }
+            document.write(b+"<br>");
+            document.write("Số lớn nhất là: "+max);
+        }
+        //bai2();
+        function bai3(){
+            var b=[];
+            var avg=0;
+            for(let i=0; i<10;i++){
+                b[i]=Math.floor(Math.random()*100);
+                    avg+=b[i]    
+                }
+            document.write(b+"<br>");
+            document.write("Giá trị trung bình là: "+avg/b.length);
+            }
+            //bai3();
+            function bai4(){
+            var b=[];
+            for(let i=0; i<10;i++){
+                b[i]=Math.floor(Math.random()*100);    
+                }
+                document.write("Đây là b: "+b+"<br>");
+                document.write("Còn đây là đảo: "+b.reverse());
+                
+            }
+            //bai4();
+            function bai5(){
+                var b=[];
+                var count=0;
+            for(let i=0; i<10;i++){
+                b[i]=Math.floor(Math.random()*100-50);   
+                if(b[i]<0){
+                    count++
+                }
+                }
+                document.write(b+"<br>")
+                document.write("Có "+count+" số nguyên âm")
+            }
+            //bai5()
+            function bai6(){
+                var b=[];
+                for(let i=0; i<10;i++){
+                b[i]=Math.floor(Math.random()*10);
+                }
+                var input=parseInt(prompt("Hãy nhập 1 số để kiêm tra có trong mảng hay k"));
+                let result= b.indexOf(input);
+                document.write(b+"<br>");
+                if(result == -1){
+                    document.write("Số đó KO NẰM trong mảng");
+                }
+                else{
+                    document.write("Số đó NẰM trong mảng");
+                }
+            }
+            //bai6();
+            function bai7(){
+                var b=[];
+                for(let i=0;i<10;i++){
+                    b[i]=Math.floor(Math.random()*10);
+                }
+                document.write(b+"<br>");
+                let input=parseInt(prompt("Hãy nhập 1 số để kiểm tra, nếu có sẽ xóa khỏi mảng"));
+                let result=b.indexOf(input);
+                if(result!=-1){
+                    b.splice(result,1);
+                    b.push(0);
+                    document.write("Đã xóa thành công"+"<br>")
+                }
+                    document.write(b+"<br>");
+            }
+            //bai7()
+            function bai8(){
+                var b=[];
+                for(let i=0;i<10;i++){
+                    b[i]=Math.floor(Math.random()*10);
+                }
+                document.write(b+"<br>");
+                function compareNumber(b,a){return a-b}
+                document.write(b.sort(compareNumber));
+            }
+            //bai8()
+            function bai9(){
+                var b=[];
+                for(let i=0;i<10;i++){
+                    b[i]=Math.floor(Math.random()*10);
+                }
+                document.write("Đây là mảng b: "+b+"<br>");
+                var a=[];
+                for(let x=0;x<10;x++){
+                    a[x]=Math.floor(Math.random()*10);
+                }
+                document.write("Đây là mảng a: "+a+"<br>");
+                var c=b.concat(a)
+                document.write("Đây là c: "+c);
+            }
+            //bai9()
+    </script>
+</body>
+</html>

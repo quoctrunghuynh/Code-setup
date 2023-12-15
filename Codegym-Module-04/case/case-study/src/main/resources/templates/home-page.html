@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Sasima - Home</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <style>
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body style="background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid px-4 px-lg-5">
+        <span class="navbar-brand">Sasima</span>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                <li class="nav-item"><a aria-current="page" class="nav-link active" href="">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                       id="navbarDropdown" role="button">Shop</a>
+                    <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <li><a class="dropdown-item" href="">All Products</a></li>
+                        <li>
+                            <hr class="dropdown-divider"/>
+                        </li>
+                        <li><a class="dropdown-item" href="">Popular Items</a></li>
+                        <li><a class="dropdown-item" href="">New Arrivals</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div>
+                <button class="btn btn-outline-dark mx-4" type="button">
+                    <i class="bi-cart-fill me-1"></i>
+                    Cart
+                    <span class="badge bg-dark text-white ms-1 rounded-pill" id="itemQuantity">0</span>
+                </button>
+                <button id="login-btn" class="btn btn-outline-dark mx-4" data-bs-target="#signInModal"
+                        data-bs-toggle="modal"
+                        type="button">
+                    <i class="bi bi-person me-1"></i>
+                    Login
+                </button>
+                <div class="btn-group visually-hidden mx-4" id="user-info-btn">
+                    <button type="button" class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <button type="button" class="btn btn-outline-dark" id="username-btn" disabled>username
+                        </button>
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Setting</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="" id="logout-btn">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Header-->
+<header class="bg-dark py-5" style="background-image: url('https://cdn.discordapp.com/attachments/1116894405127831606/1143469453242281994/australia-market.jpg');
+                                    background-repeat:no-repeat;
+                                    background-size: cover;
+                                    background-position: center">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">SaiGon Silver Market</h1>
+            <p class="lead fw-normal text-white-50 mb-0">Where you will never regret</p>
+        </div>
+    </div>
+</header>
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="listProduct">
+        </div>
+    </div>
+</section>
+<!-- Modal Sign Up -->
+<div aria-hidden="true" aria-labelledby="signUpModalLabel" class="modal fade" id="signUpModal"
+     tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-dark">
+                <h1 class="modal-title fs-5 text-bg-dark" id="signUpModalLabel">Sign Up</h1>
+                <button aria-label="Close" class="btn-close " data-bs-dismiss="modal"
+                        type="button"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label class="form-label" for="email-signup">Email</label>
+                    <input class="form-control" id="email-signup"
+                           required
+                           type="text">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="password-signup">Password</label>
+                    <input class="form-control" id="password-signup"
+                           required type="password">
+                </div>
+                <p id="isInvalid" style="color: red"></p>
+
+                <div class="mb-3 form-check d-flex justify-content-end">
+                    <a data-bs-target="#signInModal" data-bs-toggle="modal" href="#">Already have an account?</a>
+                </div>
+                <div class="modal-footer d-flex justify-content-between">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                        Close
+                    </button>
+                    <button class="btn btn-outline-dark" id="signUpBtn" type="button">Sign Up!!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Sign In -->
+<div aria-hidden="true" aria-labelledby="signInModalLabel" class="modal fade" id="signInModal"
+     tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-dark">
+                <h1 class="modal-title fs-5 text-bg-dark" id="signInModalLabel">Sign In</h1>
+                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                        type="button"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="email-signin">Email</label>
+                        <input class="form-control" id="email-signin"
+                               type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="password-signin">Password</label>
+                        <input class="form-control" id="password-signin"
+                               required type="password">
+                    </div>
+                    <div class="mb-3">
+                        <p id="alertWrongCredential" style="color: red; display: none;">Wrong email
+                            or password!!!</p>
+                    </div>
+                    <div class="mb-3 form-check d-flex justify-content-between">
+                                <span>
+                                    <input class="form-check-input" id="rememberMeCheck" type="checkbox">
+                                    <label class="form-check-label" for="rememberMeCheck">Remember</label>
+                                </span>
+                        <a data-bs-target="#signUpModal" data-bs-toggle="modal" href="#">Don't have an account?</a>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+                            Close
+                        </button>
+                        <button class="btn btn-outline-dark" id="signInBtn" type="button">Sign In!!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal's Item List-->
+<div id="listModalItem">
+
+</div>
+<!--Paging button-->
+<div class="container-fluid d-flex justify-content-center p-3">
+    <button id="prevPageBtn" class="btn btn-outline-dark px-4 mx-3" type="button">Prev</button>
+    <input type="number" id="currentPageInput">
+    <button id="nextPageBtn" class="btn btn-outline-dark px-4 mx-3" type="button">Next</button>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Trung's Website 2023</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script crossorigin="anonymous"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.addEventListener('mouseenter', Swal.stopTimer)
+            toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+    })
+</script>
+<script src="/js/home-scripts.js" type="text/javascript"></script>
+
+</body>
+</html>

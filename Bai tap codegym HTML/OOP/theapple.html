@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class apple {
+        constructor(aweight) {
+          this.aweight = aweight;
+        }
+        stupid_human_ask = function () {
+          return this.aweight;
+        };
+        getabit = function () {
+          if (this.aweight > 0) {
+            this.aweight--;
+          } else {
+            alert("Oh no! You've been tricked by the snake");
+          }
+          console.log(this.weight);
+        };
+      }
+      class human {
+        constructor(name, sex, weight, say) {
+          this.name = name;
+          this.sex = sex;
+          this.weight = weight;
+          this.say = say;
+        }
+        isMale = function () {
+          this.sex = true;
+        };
+        setGender = function () {
+          if (isMale) {
+            this.sex = false;
+          } else {
+            return this.sex;
+          }
+        };
+        checkApple = function () {
+          apple.stupid_human_ask();
+        };
+        eat = function (x) {
+          x.getabit();
+          this.weight++;
+        };
+        talk = function (text) {
+          this.say = text;
+          console.log(this.say);
+        };
+        getName = function () {
+          return this.name;
+        };
+        setName = function () {
+          this.name = name;
+        };
+        getWeight = function () {
+          return this.weight;
+        };
+        setWeight = function () {
+          this.weight = weight;
+        };
+      }
+      var human1 = new human("Adam", true, 65, "");
+      var human2 = new human("Eva", false, 52, "");
+      var stupidapple = new apple(10);
+      human1.talk("I hate to work");
+      human2.talk("I'm Eva");
+      human1.eat(stupidapple);
+      console.log(human1.weight);
+    </script>
+  </body>
+</html>

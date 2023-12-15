@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vẽ hình chữ nhật</title>
+  </head>
+  <body>
+    <!-- vẽ hình chữ nhật -->
+    <canvas id="myCanva" width="500px" height="500px"></canvas>
+    <script>
+      //Vẽ 1 hình chữ nhật
+      var canvas = document.getElementById("myCanva");
+      if (canvas.getContext) {
+        var ctx = canvas.getContext("2d");
+        ctx.lineWidth = "3"; //Độ đậm của viền (strokeRect mới có)
+
+        ctx.fillStyle = "#f1f2f3"; //Tô màu cho Context
+        ctx.fillRect(20, 50, 150, 200); //Tạo hcn (tạo khoảng cách với lề trái,tạo khoảng cách vs lề trên, chiều rộng, chiều dài)
+
+        ctx.lineJoin = "round"; //bo tròn
+
+        ctx.lineWidth = "5";
+
+        ctx.strokeStyle = "Pink"; //Màu của viền (strokeRect mới có)
+
+        ctx.strokeRect(50, 80, 150, 200);
+      }
+    </script>
+  </body>
+</html>

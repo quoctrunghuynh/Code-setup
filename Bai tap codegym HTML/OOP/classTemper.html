@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Temper{
+            constructor(celsi){
+                this.celsi=celsi;
+            }
+            get fahre(){
+                return this.celsi*1.8 +32;
+            }
+            get kevin(){
+                return this.celsi+273.15
+            }
+        }
+        const room=new Temper(25);
+        alert("Nhiệt độ phòng lúc này ở độ F là: "+room.fahre);
+        alert("Nhiệt độ phòng lúc này ở độ K là: "+room.kevin);
+    </script>
+</body>
+</html>

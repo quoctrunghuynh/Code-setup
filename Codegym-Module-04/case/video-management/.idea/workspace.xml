@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf7bb359-107f-4bde-9762-7f372cbdcca1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/src/main/java/com/trunghuynh/baitapchuyendoitiente/Controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/src/main/webapp/WEB-INF/application-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/Money-Converter/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/java/com/trunghuynh/configuration/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/java/com/trunghuynh/configuration/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/java/com/trunghuynh/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/java/com/trunghuynh/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/java/com/trunghuynh/services/CustomerServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/java/com/trunghuynh/services/ICustomerServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/src/main/java/com/example/springgreeting/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-01/spring-greeting/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/src/main/java/com/trunghuynh/sandwich/controller/SandwichController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/src/main/webapp/WEB-INF/views/sandwich.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/src/main/webapp/WEB-INF/views/selected_condiments.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/sandwich/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/src/main/java/com/trunghuynh/simplecalculator/controller/CalculatorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/simple-calculator/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/src/main/java/com/trunghuynh/springtimezone/controller/TimeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-timezone/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/src/main/java/com/trunghuynh/springvalidateemailgradle/controller/EmailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-gradle/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-maven/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-maven/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-maven/src/main/java/com/codegym/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-maven/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-maven/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-maven/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-02/spring-validate-email-maven/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/java/com/trunghuynh/demothymeleaf/configuration/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/java/com/trunghuynh/demothymeleaf/configuration/AppInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/java/com/trunghuynh/demothymeleaf/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/java/com/trunghuynh/demothymeleaf/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/java/com/trunghuynh/demothymeleaf/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/java/com/trunghuynh/demothymeleaf/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/demoThymeLeaf/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/java/com/trunghuynh/productmanagement/config/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/java/com/trunghuynh/productmanagement/config/AppInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/java/com/trunghuynh/productmanagement/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/java/com/trunghuynh/productmanagement/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/java/com/trunghuynh/productmanagement/service/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/java/com/trunghuynh/productmanagement/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/webapp/WEB-INF/pages/add-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/webapp/WEB-INF/pages/edit-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/webapp/WEB-INF/pages/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/webapp/WEB-INF/pages/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-03/product-management/src/main/webapp/WEB-INF/pages/view-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/src/main/java/com/trung/demobhx/DemoBhxApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/src/main/java/com/trung/demobhx/model/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoBhx/src/test/java/com/trung/demobhx/DemoBhxApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/src/main/java/com/databinding/demodatabinding/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/src/main/java/com/databinding/demodatabinding/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/src/main/webapp/WEB-INF/views/employee/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/src/main/webapp/WEB-INF/views/employee/info.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-04/demoDataBinding/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/configuration/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/configuration/AppInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/controller/ProvinceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/formatter/ProvinceFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/model/Province.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/repository/ICustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/repository/IProvinceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/service/IGeneralService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/service/customer/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/service/customer/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/service/province/IProvinceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/java/com/codegym/cms/service/province/ProvinceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/customer/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/customer/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/customer/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/customer/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/error.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/province/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/province/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/province/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/province/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/WEB-INF/views/province/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/practice/spring-customer-management-province/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/src/main/java/com/trunghuynh/springformatter/configuration/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/src/main/java/com/trunghuynh/springformatter/configuration/ApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/src/main/java/com/trunghuynh/springformatter/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/src/main/java/com/trunghuynh/springformatter/formatter/LocalDateFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/src/main/java/com/trunghuynh/springformatter/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/src/main/webapp/WEB-INF/views/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-07/spring-formatter/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-08/democustome-phone-validation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-08/spring-validate-infor-user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-09-AOP-exception-handler/spring-customer-management-province/src/main/java/com/codegym/cms/log/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lesson-09-AOP-exception-handler/spring-customer-management-province/src/main/java/com/codegym/cms/log/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-09-AOP-exception-handler/spring-customer-management-province/src/main/webapp/WEB-INF/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lesson-09-AOP-exception-handler/spring-customer-management-province/src/main/webapp/WEB-INF/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson-10-session-cookie/demo-session-cookie/src/main/java/com/trunghuynh/demosessioncookie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lesson-10-session-cookie/demo-session-cookie/src/main/java/com/trunghuynh/demosessioncookie/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/dto/response/CartLineResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/dto/response/CartLineResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/entity/CartLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/entity/CartLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/mapper/CartLineMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/mapper/CartLineMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/service/cart/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/service/cart/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/service/cart/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/service/cart/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/service/logout/LogOutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/java/com/trunghuynh/casestudy/model/service/logout/LogOutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/resources/static/js/home-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/resources/static/js/home-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-study/src/main/resources/templates/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case-study/src/main/resources/templates/home-page.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2UPpCU9kVBRNGtR1QjM7HHcbdUu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.75" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Gradle : com.final : video-management-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Gradle___com_final___video_management_1_0_SNAPSHOT_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.final : video-management-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf7bb359-107f-4bde-9762-7f372cbdcca1" name="Changes" comment="" />
+      <created>1692850945627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692850945627</updated>
+      <workItem from="1692850949257" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

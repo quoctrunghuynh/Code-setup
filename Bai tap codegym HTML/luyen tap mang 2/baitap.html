@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function bai1() {
+        let a = [
+          [1, 2, 1, 24],
+          [8, 11, 9, 4],
+          [7, 0, 7, 27],
+          [7, 4, 28, 14],
+          [3, 10, 26, 7],
+        ];
+        for (var i in a) {
+          document.write("row " + i + "<br>");
+          for (var j in a[i]) {
+            document.write(" " + a[i][j] + "<br>");
+          }
+        }
+      }
+      //bai1()
+      function bai2() {
+        let b = [];
+        for (let i = 0; i < 10; i++) {
+          b[i] = Math.floor(Math.random() * 10);
+        }
+        document.write(b + "<br>");
+        c = b.reverse();
+
+        document.write(c.join(""));
+      }
+      //bai2()
+      function bai3() {
+        let input = prompt("Hãy nhập vào đây");
+        document.write("Mảng ký tư là: " + input + "<br>");
+        var keychar = input.split("");
+        document.write("Kích thước của mảng là: " + keychar.length + "<br>");
+        var count = 0;
+        for (let i = 0; i < keychar.length; i++) {
+          if (!isNaN(keychar[i])) {
+            count++;
+          }
+        }
+        document.write("Số ký tự số trong mảng là: " + count);
+      }
+      //bai3()
+      function bai4() {
+        let input = prompt("Hãy nhập 1 chuỗi ký tự vào đây");
+        let checker = input.split("");
+        document.write("Chuỗi ký tự là: " + checker + "<br>");
+        let count = 0;
+        for (let i = 0; i < checker.length; i++) {
+          if (isNaN(checker[i])) {
+            count++;
+          }
+        }
+        document.write("Số ký tự từ trong chuỗi là: " + count);
+      }
+      //bai4()
+      function bai5() {
+        let input1 = prompt("Nhập chuỗi cần so sánh");
+        let input2 = prompt("Nhập chuỗi còn lại");
+        let cinput1 = input1.split();
+        let cinput2 = input2.split();
+        for (let i = 0; i < cinput1.length + cinput2.length; i++)
+          if (cinput1[i] != cinput2[i]) {
+            document.write("2 mảng ko giống nhau");
+            break;
+          } else {
+            document.write("2 mảng giống nhau");
+            break;
+          }
+      }
+      //bai5()
+      function bai6() {
+        let input = prompt("Hãy nhập 1 chuỗi ký tự vào đây");
+        let checker = input.split("");
+        document.write("Chuỗi ký tự là: " + checker + "<br>");
+        for (let i = 0; i < checker.length; i++) {
+          if (checker[i] == "-") {
+            checker.splice(i, 1, "_");
+          }
+        }
+        document.write("Chuỗi ký tự là: " + checker + "<br>");
+      }
+      //bai6()
+    </script>
+  </body>
+</html>

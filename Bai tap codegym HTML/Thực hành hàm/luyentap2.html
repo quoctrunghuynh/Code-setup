@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function rannum() {}
+      function bai1(num) {
+        let total = num * num;
+        document.write(total);
+      }
+      function bai2(rad) {
+        let chuvi = 2 * rad * Math.PI;
+        let dientich = rad * rad * Math.PI;
+        document.write(chuvi + "<br>");
+        document.write(dientich);
+      }
+      function bai3(num) {
+        let total = 1;
+        for (let i = 1; i <= num; i++) {
+          total *= i;
+          document.write(total + "<br>");
+        }
+      }
+      function bai4() {
+        let input = prompt("Nhập dô đây");
+        let check = input.split(",");
+        for (let i = 0; i < check.length; i++) {
+          if (isNaN(check[i]) == false) {
+            document.writeln("okie");
+          } else {
+            document.writeln("Có kí tự chữ trong đó");
+            break;
+          }
+        }
+      }
+      bai4();
+      function bai5(a, b, c) {
+        if (a > b && a > c) {
+          document.writeln(a + " là số lớn nhất");
+        }
+        if (b > a && b > c) {
+          document.writeln(b + " là số lớn nhất");
+        }
+        if (c > b && a < c) {
+          document.writeln(c + " là số lớn nhất");
+        }
+      }
+      function bai6(num) {
+        if (num == 0) {
+          document.writeln(num + " là số 0");
+        }
+        if (num > 0) {
+          document.writeln(num + " là số nguyên dương");
+        }
+        if (num < 0) {
+          document.writeln(num + " là số nguyên âm");
+        }
+      }
+      function bai7(a, b) {
+        let mid = a;
+        a = b;
+        b = mid;
+        document.writeln(a + "," + b);
+      }
+      // bai7(8,9)
+      function bai8(num) {
+        document.writeln(num.reverse());
+      }
+      //bai8([4,5,2,7,3,0,1]);
+      function bai9(arr, char) {
+        document.writeln(arr.join("").split(char).length - 1);
+      }
+      //bai9([1,2,3,4,"a","a","a","a"],"a")
+    </script>
+  </body>
+</html>

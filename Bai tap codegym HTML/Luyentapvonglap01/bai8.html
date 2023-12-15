@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bạn có 4 lượt đoán</title>
+</head>
+<body>
+    <button type="button" onclick="startgame()">Bắt đầu</button>
+    <script>
+        
+        
+        function startgame(){
+            var input=parseInt(prompt("Bạn muốn giới hạn từ 1 đến: ?"));
+            let randomNum=Math.floor(Math.random()*input)+1;
+            var test=parseInt(prompt("Nhập số bạn đoán,sau đó nếu bạn đoán sai thì tôi sẽ nói cao hơn hoặc thấp hơn"));
+            
+            for(let count=0; count<4;count++)
+            {
+                if(test==randomNum)
+                {
+                    alert("Bạn thật tuyệt vời, bạn đã đoán chính xác");
+                    break;
+                }
+                else
+                {
+                    if(test<randomNum){
+                        test=parseInt(prompt("Hãy thử sô lớn hơn"+ ".Bạn còn "+(4-count)+(" lần đoán")));
+                    }
+                    else{
+                        test=parseInt(prompt("Hãy thử sô nhỏ hơn"+".Bạn còn "+(4-count)+(" lần đoán")));
+                    }
+                }
+                if(count ==3 ){
+                    alert("Bạn đã hết lượt đoán, vui lòng thử lại sau. Con số chính xác là: "+randomNum)
+                }
+            }
+        }
+    </script>
+</body>
+</html>

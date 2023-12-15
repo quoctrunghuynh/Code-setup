@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+    let diemktr = parseInt(prompt("Hãy nhập vầo điểm kiểm tra trung bình cuối kì"));
+    let diemgiuaki = parseInt(prompt("Hãy nhập vầo điểm giữa kì"));
+    let final = parseInt(prompt("Hãy nhập vào điểm thi cuối kì"));
+    let total = (diemktr+diemgiuaki+final)/3
+    if(total >8){
+        alert("Học lực giỏi");
+    }else{
+    if(total>6.5){
+        alert("Học lực khá");
+    }else{
+        if(total>4.5){
+            alert("Học lực trung bình");
+        }
+        else{alert("Yếu. Ở lại lớp")}
+    }
+    }
+</script>
+</body>
+</html>

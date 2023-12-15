@@ -1,0 +1,2 @@
+Customer:1:Trung:Huynh:hqtrung0105@gmail.com:0362578883:Trung0105@
+Customer:2:Chinh:Pham:chinh@gmail.com:0000000000:Abcd@1234

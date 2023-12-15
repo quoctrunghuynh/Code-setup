@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let heart = "<table >";
+let cao = parseInt(prompt("nhập vào chiều cao trái tim:(>6)"));
+for (let dong = 0; dong < cao; dong++) {
+    heart += "<tr>";
+    //if(dong<cao/2&&dong>cao/4+1){continue;}
+    for (let cot = 0; cot <= cao; cot++) {
+        if (dong < cao / 2) {
+            if (dong + cot < (cao / 4) ||
+                cot - dong > (cao * 3 / 4) ||
+                (cot - dong > (cao / 4) &&
+                    cot - dong < (cao * 3 / 4) &&
+                    cot + dong < (cao * 3 / 4))) {
+                heart += "<td width=\"20px\">" + "</td>";
+            } else {
+                heart += "<td width=\"20px\">" + "*" + "</td>";
+            }
+
+        } else {
+            if (dong - cot > (cao / 2 - (cao - 1) % 2) || cot + dong >= 3 * cao / 2) {
+                heart += "<td width=\"20px\">" + "</td>";
+            } else {
+                heart += "<td width=\"20px\">" + "*" + "</td>";
+            }
+
+        }
+    }
+    heart += "</tr>";
+}
+heart += "</table>";
+document.write(heart);
+    </script>
+</body>
+</html>

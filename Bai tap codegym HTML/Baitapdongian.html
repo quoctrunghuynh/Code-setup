@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Ký Học Viên</title>
+    <style>
+        body{
+            font-size: 18px;
+            width: 40%;
+        }
+        table{
+            width: 100%;
+        }
+        td{color: blue;} 
+    </style>
+</head>
+<body>
+    <div style="background-color: khaki ;">
+        <form >
+            <table >
+                <tr>
+                    <th colspan="2">
+                        <p style="background-color: rgb(137, 241, 241); font-size: 35px; margin: 1px; color: mediumblue;" >ĐĂNG KÝ HỌC VIÊN</p> 
+                    </th>
+                </tr>
+                <tr>
+                    <td style="width: 100px;">Họ và tên
+                        </td> 
+                    <td> <input type="text" name="yourname" id="yourname" style="font-size: 17px; width: 250px;"> 
+                        </td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td><input type="date" name="dob" id="dob" style="font-size: 17px; width: 150px;"></td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>  
+                    <td>
+                        <label ><input type="radio" name="sex" id="male"> Nam</label> 
+                        <label ><input type="radio" name="sex" id="female"> Nữ </label>
+                <tr> 
+                    <td>
+                        <p style="margin-bottom: 65px ;">Địa chỉ</p> 
+                    </td> 
+                    <td><input type="text" name="address" id="address" style="font-size: 17px; width: 220px; height: 60px;">
+                    </td> 
+                </tr>
+                <tr>
+                    <td>Lớp</td>
+                    <td>
+                        <select name="class" id="class" style="width: 115px; font-size: 17px;" >
+                            <option value="select class">--Chọn lớp--</option>
+                            <option value="lop1">Lớp 1</option>
+                            <option value="lop2">Lớp 2</option>
+                            <option value="lop3">Lớp 3</option>
+                            <option value="lop4">Lớp 4</option>
+                            <option value="Lop5">Lớp 5</option>
+                        </select>
+                    </td>
+                <tr><td>Email</td> 
+                    <td> <input type="text" name="email" id="email" style="font-size: 17px ; width: 155px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td> 
+                    <td> <input type="text" name="phone" id="phone" style="font-size: 17px ; width: 155px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Đăng ký" style=" font-size: 17px;"> <input type="reset" value="Nhập lại" style=" font-size: 17px;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html> 

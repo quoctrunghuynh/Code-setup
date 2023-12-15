@@ -1,0 +1,245 @@
+2023-08-03 19:45:37,708 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,744 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,761 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,778 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,799 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,815 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,835 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,855 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,875 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,893 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,914 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,937 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,961 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,975 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:37,993 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:38,015 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:38,045 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:38,087 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:38,109 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:38,138 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,613 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,638 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,657 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,672 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,690 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,708 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,726 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,750 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,769 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,786 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,804 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,817 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,834 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,851 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,868 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,885 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,906 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,923 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,943 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:40,961 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,041 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,083 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,113 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,134 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,162 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,187 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,218 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,251 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,272 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,297 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,338 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,387 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,418 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,454 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,485 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,543 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,578 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,604 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,640 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:45:46,669 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,833 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,856 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,870 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,884 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,898 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,911 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,925 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,942 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,956 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,973 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:05,988 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:06,004 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:06,020 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:06,035 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:06,054 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:06,079 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:06,101 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:06,122 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:06,141 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:06,163 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,288 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,309 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,323 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,337 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,351 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,365 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,380 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,397 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,417 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,434 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,448 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,460 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,474 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,487 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,499 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,512 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,532 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,552 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,566 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:46:36,578 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,306 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,347 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,368 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,386 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,403 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,420 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,437 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,452 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,466 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,482 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,499 +0700 [http-nio-8080-exec-1] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,517 +0700 [http-nio-8080-exec-2] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,538 +0700 [http-nio-8080-exec-3] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,559 +0700 [http-nio-8080-exec-4] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,584 +0700 [http-nio-8080-exec-5] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,614 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,638 +0700 [http-nio-8080-exec-7] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,654 +0700 [http-nio-8080-exec-8] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,671 +0700 [http-nio-8080-exec-9] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:47:37,691 +0700 [http-nio-8080-exec-10] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.findAll[]: JDBC exception executing SQL [select c1_0.id,c1_0.avatar,c1_0.email,c1_0.full_name,c1_0.username from customer c1_0] [Table 'demo_aop.customer' doesn't exist] [n/a]; SQL [n/a]
+
+2023-08-03 19:53:05,082 +0700 [http-nio-8080-exec-6] ERROR (MyLogger.java:51) - [CMS] Exception: CustomerService.save[Customer{username='hqtrung0105@gmail.com', fullName='Trung Huynh', email='hqtrung0105@gmail.com'}]: could not execute statement [Data truncation: Data too long for column 'avatar' at row 1] [insert into customer (avatar,email,full_name,username) values (?,?,?,?)]; SQL [insert into customer (avatar,email,full_name,username) values (?,?,?,?)]
+
+2023-08-03 19:53:05,085 +0700 [http-nio-8080-exec-6] INFO  (MyLogger.java:37) - New customer created! 
+2023-08-03 19:53:27,577 +0700 [http-nio-8080-exec-1] INFO  (MyLogger.java:37) - New customer created! 
+2023-08-03 19:55:02,878 +0700 [http-nio-8080-exec-6] INFO  (MyLogger.java:37) - New customer created! 
