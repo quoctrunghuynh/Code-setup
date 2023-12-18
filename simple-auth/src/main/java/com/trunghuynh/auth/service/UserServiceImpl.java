@@ -6,7 +6,11 @@ import com.trunghuynh.auth.entity.User;
 import com.trunghuynh.auth.payload.UserDto;
 import com.trunghuynh.auth.converter.UserConverter;
 import com.trunghuynh.auth.repository.UserRepository;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+@Service
+@Transactional
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
     private final UserConverter userConverter;

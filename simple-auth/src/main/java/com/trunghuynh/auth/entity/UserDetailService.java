@@ -6,10 +6,17 @@ import jakarta.transaction.Transactional;
 
 import com.trunghuynh.auth.repository.UserRepository;
 
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Service;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Service
 @Transactional
@@ -30,6 +37,10 @@ public class UserDetailService implements UserDetailsService {
             grantedAuthorities.add(authority);
         }
 
-        return new CurrentUserServiceImpl(user.getId(), user.getEmail(), user.getPassword(), user.getUserName(), grantedAuthorities);
+        return new CurrentUser(
+                user.getId(),
+                user.getUsername(),
+                user.getPassword(),
+                grantedAuthorities);
     }
 }

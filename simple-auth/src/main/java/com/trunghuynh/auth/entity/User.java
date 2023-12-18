@@ -18,10 +18,10 @@ import java.util.Set;
 
 @Getter
 @Setter
-@Entity
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
 public class User {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

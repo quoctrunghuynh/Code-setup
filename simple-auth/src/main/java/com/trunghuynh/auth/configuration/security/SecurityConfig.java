@@ -1,6 +1,7 @@
 package com.trunghuynh.auth.configuration.security;
 
 import jakarta.servlet.Filter;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -11,6 +12,7 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.SecurityFilterChain;
@@ -22,20 +24,12 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import java.util.Arrays;
 @Configuration
 @EnableWebSecurity
+@RequiredArgsConstructor
 public class SecurityConfig {
 
     private final AuthenticationEntryPoint authenticationEntryPoint;
-    private final UserDetailsServiceImpl userDetailsService;
+    private final UserDetailsService userDetailsService;
     private final Filter jwtFilter;
-
-    public SecurityConfig(AuthenticationEntryPoint authenticationEntryPoint,
-                          UserDetailsServiceImpl userDetailsService,
-                          @Qualifier("jwtFilter") Filter filter) {
-
-        this.authenticationEntryPoint = authenticationEntryPoint;
-        this.userDetailsService = userDetailsService;
-        this.jwtFilter = filter;
-    }
 
     @Bean
     public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
@@ -65,9 +59,8 @@ public class SecurityConfig {
 
         http.authorizeHttpRequests()
                 .requestMatchers(
-                        "/api/search/**",
                         "/api/auth/login",
-                        "/api/users/check_email",
+                        "/api/user/register",
                         "/api/forgot_password",
                         "/api/shorts")
                 .permitAll();
