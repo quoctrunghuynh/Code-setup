@@ -1,13 +1,14 @@
 package com.trunghuynh.auth.service;
 
+import com.trunghuynh.auth.configuration.security.JwtAuthenticationFilter;
 import com.trunghuynh.auth.configuration.security.JwtService;
 import com.trunghuynh.auth.entity.User;
 import com.trunghuynh.auth.payload.ResponseDto;
 import com.trunghuynh.auth.payload.user.request.UserUpdateRequest;
 import com.trunghuynh.auth.payload.user.response.UserDto;
 import com.trunghuynh.auth.repository.UserRepository;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -17,9 +18,9 @@ import java.util.Optional;
 @Transactional
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
-
+    private final JwtAuthenticationFilter jwtAuthenticationFilter;
     private final UserRepository userRepository;
-    private final UserDetailsService userDetailsService;
+    private final JwtService jwtService;
 
     @Override
     public UserDto get(Long id) {
@@ -58,16 +59,20 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public ResponseDto delete(Long id) {
-
-        if (user != null) {
-            user.setIsDeleted(true);
-            userRepository.save(user);
-            return ResponseDto.builder()
-                    .status("200")
-                    .message("User deleted successfully")
-                    .data(true)
-                    .build();
+    public ResponseDto delete(String token, HttpServletRequest request) {
+        String jwt = jwtAuthenticationFilter.getJwtFromRequest(request);
+        if (jwt.equals(token)) {
+            String username = jwtService.extractUsername(token);
+            User user = userRepository.findUserByUsername(username).orElse(null);
+            if (user != null) {
+                user.setIsDeleted(true);
+                userRepository.save(user);
+                return ResponseDto.builder()
+                        .status("200")
+                        .message("User deleted successfully")
+                        .data(true)
+                        .build();
+            }
         }
         return ResponseDto.builder()
                 .status("400")
