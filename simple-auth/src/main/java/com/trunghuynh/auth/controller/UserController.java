@@ -1,23 +1,40 @@
 package com.trunghuynh.auth.controller;
 
 import com.trunghuynh.auth.payload.ResponseDto;
-import com.trunghuynh.auth.payload.UserDto;
+import com.trunghuynh.auth.payload.user.request.UserUpdateRequest;
+import com.trunghuynh.auth.payload.user.response.UserDto;
 import com.trunghuynh.auth.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/user")
 @RequiredArgsConstructor
+@RequestMapping("/api/users")
 public class UserController {
+
     private final UserService userService;
 
-    @PostMapping("/register")
-    public ResponseDto register(@RequestBody UserDto userDto){
-       return userService.save(userDto);
+    @GetMapping("/{id}")
+    public ResponseEntity<UserDto> sayHacked(@PathVariable Long id) {
+        return ResponseEntity.ok(userService.get(id));
     }
 
+    @PutMapping
+    public ResponseEntity<ResponseDto> update(@RequestBody UserUpdateRequest userUpdateRequest) {
+        return ResponseEntity.ok(userService.update(userUpdateRequest));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<ResponseDto> delete(@PathVariable Long id){
+        return ResponseEntity.ok(userService.delete(id));
+    }
 }
