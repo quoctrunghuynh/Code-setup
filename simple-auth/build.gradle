@@ -36,10 +36,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
-    // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
-    implementation 'org.modelmapper:modelmapper:3.1.1'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 
-    implementation 'org.apache.commons:commons-lang3:3.9'
     //jwt
     implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
     implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
@@ -52,6 +50,12 @@ dependencies {
     //test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
+
+    //misc
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation 'org.modelmapper:modelmapper:3.1.1'
+    implementation 'redis.clients:jedis:5.0.2'
+
 }
 
 tasks.named('test') {

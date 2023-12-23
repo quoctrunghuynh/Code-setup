@@ -6,6 +6,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
@@ -18,9 +19,13 @@ import java.util.function.Function;
 @Service
 @RequiredArgsConstructor
 public class JwtService {
-    //Pw: HuynhThienVanAnh 256 HEX
-    private static final String SECRET_KEY ="47726F5057686743734B41737357566A6D3651583136515171597336676F3970686E3465435869736A31593D";
-    private static final int EXPIRE_TIME = 1000 * 60 * 60 * 24; //1 day
+
+    @Value("${app.secret_key}")
+    private String SECRET_KEY;
+
+    @Value("${app.expiration_time}")
+    private int EXPIRE_TIME; //1000 * 60 * 60 * 24 = 1 day
+
     public String extractUsername(String token){
         return extractClaim(token, Claims::getSubject);
     }

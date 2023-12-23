@@ -6,6 +6,7 @@ import com.trunghuynh.auth.entity.User;
 import com.trunghuynh.auth.payload.ResponseDto;
 import com.trunghuynh.auth.payload.user.request.UserUpdateRequest;
 import com.trunghuynh.auth.payload.user.response.UserDto;
+import com.trunghuynh.auth.repository.redis.UserDtoRedisRepository;
 import com.trunghuynh.auth.repository.UserRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
@@ -20,18 +21,29 @@ import java.util.Optional;
 public class UserServiceImpl implements UserService {
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
     private final UserRepository userRepository;
+    private final UserDtoRedisRepository userDtoRedisRepository;
     private final JwtService jwtService;
 
     @Override
     public UserDto get(Long id) {
-        Optional<User> userData = userRepository.findUserByIdAndIsDeletedIsFalse(id);
-        return userData.map(
-                user -> UserDto.builder()
-                        .id(user.getId())
-                        .firstname(user.getFirstname())
-                        .lastname(user.getLastname())
-                        .createdAt(user.getCreatedAt())
-                        .build()).orElse(null);
+        UserDto userInCache = userDtoRedisRepository.findUserDtoWithId(id);
+        if (userInCache == null) {
+            Optional<User> userData = userRepository.findUserByIdAndIsDeletedIsFalse(id);
+            if (userData.isEmpty()) {
+                return null;
+            } else {
+                UserDto userDto = userData.map(
+                        user -> UserDto.builder()
+                                .id(user.getId())
+                                .firstname(user.getFirstname())
+                                .lastname(user.getLastname())
+                                .createdAt(user.getCreatedAt())
+                                .build()).orElse(null);
+                userDtoRedisRepository.saveUserDto(userDto);
+                return userDto;
+            }
+        }
+        return userInCache;
     }
 
     @Override
@@ -45,6 +57,7 @@ public class UserServiceImpl implements UserService {
             user.setFirstname(userUpdateRequest.getFirstname());
             user.setLastname(userUpdateRequest.getLastname());
             userRepository.save(user);
+            userDtoRedisRepository.updateUserDtoByUser(user);
             return ResponseDto.builder()
                     .status("200")
                     .message("User updated successfully")
@@ -67,6 +80,7 @@ public class UserServiceImpl implements UserService {
             if (user != null) {
                 user.setIsDeleted(true);
                 userRepository.save(user);
+                userDtoRedisRepository.deleteUserDtoByUser(user);
                 return ResponseDto.builder()
                         .status("200")
                         .message("User deleted successfully")

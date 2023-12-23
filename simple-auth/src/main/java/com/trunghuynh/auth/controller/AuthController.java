@@ -3,7 +3,6 @@ package com.trunghuynh.auth.controller;
 import com.trunghuynh.auth.payload.ResponseDto;
 import com.trunghuynh.auth.payload.user.request.AuthenticateRequest;
 import com.trunghuynh.auth.payload.user.request.RegisterRequest;
-import com.trunghuynh.auth.payload.user.response.AuthenticationResponse;
 import com.trunghuynh.auth.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
