@@ -6,7 +6,7 @@ import com.trunghuynh.auth.payload.user.response.UserDto;
 import jakarta.servlet.http.HttpServletRequest;
 
 public interface UserService {
-    UserDto get(Long id);
+    Object get(Long id);
     ResponseDto update(UserUpdateRequest userUpdateRequest);
     ResponseDto delete(String token, HttpServletRequest request);
 }

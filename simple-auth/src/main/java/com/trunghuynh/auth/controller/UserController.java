@@ -24,7 +24,7 @@ public class UserController {
     private final UserService userService;
 
     @GetMapping("/{id}")
-    public ResponseEntity<UserDto> sayHacked(@PathVariable Long id) {
+    public ResponseEntity<Object> getById(@PathVariable Long id) {
         return ResponseEntity.ok(userService.get(id));
     }
 

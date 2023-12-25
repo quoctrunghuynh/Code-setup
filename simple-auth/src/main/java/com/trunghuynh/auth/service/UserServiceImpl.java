@@ -1,13 +1,14 @@
 package com.trunghuynh.auth.service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trunghuynh.auth.configuration.security.JwtAuthenticationFilter;
 import com.trunghuynh.auth.configuration.security.JwtService;
 import com.trunghuynh.auth.entity.User;
 import com.trunghuynh.auth.payload.ResponseDto;
 import com.trunghuynh.auth.payload.user.request.UserUpdateRequest;
 import com.trunghuynh.auth.payload.user.response.UserDto;
-import com.trunghuynh.auth.repository.redis.UserDtoRedisRepository;
 import com.trunghuynh.auth.repository.UserRepository;
+import com.trunghuynh.auth.repository.redis.UserDtoRedisRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -23,27 +24,32 @@ public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
     private final UserDtoRedisRepository userDtoRedisRepository;
     private final JwtService jwtService;
+    private final ObjectMapper objectMapper;
 
     @Override
-    public UserDto get(Long id) {
-        UserDto userInCache = userDtoRedisRepository.findUserDtoWithId(id);
+    public Object get(Long id) {
+        Object userInCache = userDtoRedisRepository.findUserDtoWithId(id);
         if (userInCache == null) {
             Optional<User> userData = userRepository.findUserByIdAndIsDeletedIsFalse(id);
             if (userData.isEmpty()) {
-                return null;
+                return ResponseDto.builder()
+                        .status("200")
+                        .message("User not found! Please try again later.")
+                        .data(false)
+                        .build();
             } else {
-                UserDto userDto = userData.map(
+                UserDto userDtoInRepository = userData.map(
                         user -> UserDto.builder()
                                 .id(user.getId())
                                 .firstname(user.getFirstname())
                                 .lastname(user.getLastname())
                                 .createdAt(user.getCreatedAt())
                                 .build()).orElse(null);
-                userDtoRedisRepository.saveUserDto(userDto);
-                return userDto;
+                userDtoRedisRepository.saveUserDto(userDtoInRepository);
+                return userDtoInRepository;
             }
         }
-        return userInCache;
+        return objectMapper.convertValue(userInCache, UserDto.class);
     }
 
     @Override
@@ -60,7 +66,7 @@ public class UserServiceImpl implements UserService {
             userDtoRedisRepository.updateUserDtoByUser(user);
             return ResponseDto.builder()
                     .status("200")
-                    .message("User updated successfully")
+                    .message("User updated successfully!")
                     .data(true)
                     .build();
         }
@@ -83,14 +89,14 @@ public class UserServiceImpl implements UserService {
                 userDtoRedisRepository.deleteUserDtoByUser(user);
                 return ResponseDto.builder()
                         .status("200")
-                        .message("User deleted successfully")
+                        .message("User deleted successfully!")
                         .data(true)
                         .build();
             }
         }
         return ResponseDto.builder()
                 .status("400")
-                .message("User not found or has been deleted")
+                .message("User not found or has been deleted!")
                 .data(false)
                 .build();
     }
