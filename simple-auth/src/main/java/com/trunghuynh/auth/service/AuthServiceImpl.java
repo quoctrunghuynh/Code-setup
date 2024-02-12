@@ -16,6 +16,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.rmi.UnexpectedException;
 import java.time.LocalDateTime;
 
 @Service
@@ -38,7 +39,15 @@ public class AuthServiceImpl implements AuthService {
                 .isDeleted(false)
                 .role(Role.USER)
                 .build();
-        userRepository.save(user);
+        try {
+            userRepository.save(user);
+        } catch (Exception e) {
+            return ResponseDto.builder()
+                    .status("403")
+                    .message("User existed")
+                    .data(e)
+                    .build();
+        }
         var jwtToken = jwtService.generateToken(user);
         return ResponseDto.builder()
                 .status("200")
@@ -47,7 +56,6 @@ public class AuthServiceImpl implements AuthService {
                         .token(jwtToken)
                         .build())
                 .build();
-
     }
 
     @Override

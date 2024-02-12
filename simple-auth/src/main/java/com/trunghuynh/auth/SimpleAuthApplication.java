@@ -1,7 +1,5 @@
 package com.trunghuynh.auth;
 
-import com.trunghuynh.auth.configuration.security.JwtService;
-import io.jsonwebtoken.Jwt;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

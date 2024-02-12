@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Object get(Long id) {
-        Object userInCache = userDtoRedisRepository.findUserDtoWithId(id);
+        User userInCache = (User) userDtoRedisRepository.findUserDtoWithId(id);
         if (userInCache == null) {
             Optional<User> userData = userRepository.findUserByIdAndIsDeletedIsFalse(id);
             if (userData.isEmpty()) {
